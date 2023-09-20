@@ -1,0 +1,77 @@
+.about-container {
+  /* height: 500px; */
+  /* background-color: red; */
+  margin-top: 100px;
+}
+.hero-about-inner {
+  height: 100%;
+  width: 95%;
+  position: relative;
+  margin: auto;
+}
+.hero-about-inner::before {
+  content: "";
+  height: 90%;
+  width: 75%;
+  background: url("https://illustrarch.com/wp-content/uploads/2022/09/305_Moondance_Plan.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.2;
+}
+.hero-about-box{
+    width: 80%;
+    height: 100%;
+    z-index: 99;
+    margin: auto;
+    display: flex;
+}
+.hero-about-content{
+   width: 60%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+}
+.hero-about-content p{
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 2.3px;
+    font-weight: 600;
+    font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.hero-about-content p a{
+   color: blue;
+   text-decoration: none;
+   font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.hero-about-img{
+    width: 30%;
+    height: 100%;
+    /* z-index: 99; */
+    position: relative;
+}
+.hero-about-img img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+.hero-about-img-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.4;
+}
+@media only screen and (max-width:642px){
+  .hero-about-content{
+    width: 100%;
+  }
+  .hero-about-img{
+    display: none;
+  }
+
+}

@@ -1,0 +1,101 @@
+.video-section {
+  width: 100%;
+  height: 90vh;
+}
+.video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.about-container {
+  width: 90%;
+  margin: 100px auto auto auto;
+  /* background: red; */
+  height: 100%;
+  display: flex;
+}
+.about-heading {
+  width: 50%;
+}
+.about-heading h3 {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+}
+.about-heading p {
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.aboutimage {
+  width: 40%;
+  height: 80%;
+  margin: auto;
+}
+.aboutimage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about-info {
+   margin-top: 100px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 100px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+}
+.about-info h4{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+}
+.about-info p{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+}
+.about-card {
+  /* background-color: green; */
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.card-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width:642px) {
+  .about-heading h3 {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+  }
+  .about-heading p {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    font-weight: 400;
+  }
+  .about-info{
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+  }
+  .about-card{
+    width: 90%;
+  }
+}
