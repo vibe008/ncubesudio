@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ncubesudio/static/css/main.9057fbe9.css",
-    "main.js": "/ncubesudio/static/js/main.c15a02f4.js",
+    "main.js": "/ncubesudio/static/js/main.7cd34e3b.js",
     "static/js/787.dece555c.chunk.js": "/ncubesudio/static/js/787.dece555c.chunk.js",
     "static/media/SANDEEP JI_ELEVATION_VIEW3_R01_07.06.2023.png": "/ncubesudio/static/media/SANDEEP JI_ELEVATION_VIEW3_R01_07.06.2023.72c7c741bd80bedcd171.png",
     "static/media/SANDEEP JI_ELEVATION_VIEW2_R00_07.06.2023.png": "/ncubesudio/static/media/SANDEEP JI_ELEVATION_VIEW2_R00_07.06.2023.2ce1e18d9cfdffb4ace9.png",
@@ -59,11 +59,11 @@
     "static/media/n studio.png": "/ncubesudio/static/media/n studio.156cd0296810504d6dbe.png",
     "index.html": "/ncubesudio/index.html",
     "main.9057fbe9.css.map": "/ncubesudio/static/css/main.9057fbe9.css.map",
-    "main.c15a02f4.js.map": "/ncubesudio/static/js/main.c15a02f4.js.map",
+    "main.7cd34e3b.js.map": "/ncubesudio/static/js/main.7cd34e3b.js.map",
     "787.dece555c.chunk.js.map": "/ncubesudio/static/js/787.dece555c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9057fbe9.css",
-    "static/js/main.c15a02f4.js"
+    "static/js/main.7cd34e3b.js"
   ]
 }
